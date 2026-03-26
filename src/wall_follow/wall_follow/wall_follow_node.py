@@ -118,7 +118,7 @@ class WallFollow(Node):
         elif abs_steer > math.radians(10):
             velocity = 2.5
         else:
-            velocity = 3.4
+            velocity = 4.5
 
         drive_msg = AckermannDriveStamped()
         drive_msg.drive.steering_angle = steering_angle
